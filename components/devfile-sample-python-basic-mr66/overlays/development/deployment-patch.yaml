@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-mr66
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-inxo-tenant/test-app-vrgm/devfile-sample-python-basic-mr66@sha256:19203765cba61dc2e3e392e3223da500ab0c836ab9a52bbe1350043687486197
+        name: my-python
+        resources: {}
+status: {}
