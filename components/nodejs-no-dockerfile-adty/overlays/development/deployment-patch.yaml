@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-no-dockerfile-adty
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-inxo-tenant/test-app-vrgm/nodejs-no-dockerfile-adty@sha256:ea7a52317e3980983c43eeddb38d3fad810db19a5c0448716e3a223f0ac7433f
+        name: my-nodejs
+        resources: {}
+status: {}
