@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: maven-hello-world-7p2n
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-inxo-tenant/test-app-vrgm/maven-hello-world-7p2n@sha256:c470504abcd3dcfc801b5295d45eb56ab777abff7da1a4878714bc16f0af91e5
+        name: my-java-quarkus
+        resources: {}
+status: {}
